@@ -1,0 +1,152 @@
+.header-container{
+    display : flex;
+    height:2%;
+
+}
+.logo-div{
+    flex : 1;
+    padding : 20px
+}
+.navbar{
+    flex: 1;
+    text-size-adjust: 16px;
+    display: flex;
+    
+   
+}
+.navbar a{
+    color : black;
+    text-decoration:none
+    
+
+}
+.tonav a.active{
+    color:red;
+
+}
+.logo{
+    width: 200px;
+    height: 50px;
+    padding-right: 480px;
+    padding-left: 30px;
+
+}
+.head-container{
+    display: flex;
+    align-items: center;
+    
+}
+.home-image{
+    width: 95vw;
+    position:relative;
+    
+}
+.home-image-text{
+    position:absolute;
+    top:50%;
+    left:20%;
+}
+.book-appointment{
+    position: absolute;
+    top: 85%;
+    left:9%;
+    width:70%;
+    height:225px;
+    border-radius: 20px;
+    background-color: white;
+    padding-top: 30px;
+    
+    
+}
+.book-appointment:hover{
+    border-width:2px;
+    border-style:solid;
+    border-color:blue;
+
+}
+.upper-book{
+    display:flex;
+}
+.full-name{
+    border-radius: 5px;
+    margin: 10px;
+    flex:1;
+    background-color: white;
+    border-width:1px;
+    border-style:solid;
+    border-color: grey;
+    padding: 10px;
+    border-radius: 5px;
+}
+.phno{
+    border-radius: 5px;
+    margin: 10px;
+    flex:1;
+    background-color: white;
+    border-width:1px;
+    border-style:solid;
+    border-color: grey;
+    padding: 10px;
+    border-radius: 5px;
+  
+}
+.date{
+    border-radius: 5px;
+    margin: 10px;
+    flex:1;
+    background-color: white;
+    border-width:1px;
+    border-style:solid;
+    border-color: grey;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.lower-book{
+    
+    display:flex;
+    background-color: white;
+    
+    
+}
+.department{
+    border-radius: 5px;
+    margin: 10px;
+    flex:1;
+    background-color: white;
+    border-width:1px;
+    border-style:solid;
+    border-color: grey;
+    padding: 10px;
+    border-radius: 5px;
+}
+    
+.doctor{
+    border-radius: 5px;
+    margin: 10px;
+    flex:1;
+    background-color: white;
+    border-width:1px;
+    border-style:solid;
+    border-color: grey;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+    
+.button{
+    background-color: green; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    flex:1
+    
+
+
+}
